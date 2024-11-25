@@ -1,0 +1,35 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "unidata"
+version = "0.0.1"
+authors = [
+  { name="Eugeniu Ursu", email="eugeniu.ursu@gmail.com" },
+]
+description = "Universal Data Processing Tools"
+readme = "README.md"
+requires-python = ">= 3.9"
+license = {file = "LICENSE"}
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+keywords = ["dbapi2", "dataset", "telegram", "logger", "ssh", "dbconnection"]
+dependencies = [
+  "typing_extensions>=4.12.2",
+  "oracledb>=2.5.0",
+  "psycopg>=3.2.3",
+  "psycopg2>=2.9.10",
+  "pymssql>=2.3.2",
+  "PyMySQL>=1.1.1",
+  "pyodbc>=5.2.0",
+  "paramiko>=3.5.0",
+  "requests>=2.32.3",
+  "openpyxl>=3.1.5",
+]
+
+[project.urls]
+Homepage = "https://github.com/egursu/unidata"
